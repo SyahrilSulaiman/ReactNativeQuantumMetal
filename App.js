@@ -5,8 +5,10 @@ import { color, fonts } from './Constant';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
+
 import GetStarted from './Screens/GetStarted';
 import Login from './Screens/Login';
+import Dashboard from './Screens/Dashboard';
 //import { auth } from '.';
 
 // import auth from '@react-native-firebase/auth'
@@ -47,6 +49,7 @@ const App = () => {
 			<Stack.Navigator initialRouteName='GetStarted' screenOptions={{ headerShown: false }}>
 				<Stack.Screen name='GetStarted' component={GetStarted} />
 				<Stack.Screen name='Login' component={Login} />
+				<Stack.Screen name='Dashboard' component={Dashboard} />
 			</Stack.Navigator>
 		</NavigationContainer>
   	);

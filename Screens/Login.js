@@ -31,7 +31,7 @@ const Login = ({navigation, route}) => {
 
                 {/* SECTION UNTUK PERKATAAN SIGN IN - TITLE */}
                 <View style={{ marginTop: (7/100) * container.height}}>
-                    <Text style={{ fontWeight: 'bold', fontSize: fonts.xlarge}}>Sign In</Text>
+                    <Text style={{ fontWeight: 'bold', fontSize: fonts.xlarge}}>Sign on</Text>
                 </View>
 
                 {/* SECTION UNTUK FORM SIGN IN - USERNAME & PASSWORD */}
@@ -136,6 +136,7 @@ const Login = ({navigation, route}) => {
                         </View>
                         <View style={{ marginLeft: (1/100) * container.width}}>
                             <TouchableOpacity
+                            onPress={() => navigation.navigate("Dashboard")}
                             style={{
                                 padding: (2/100) * container.width,
                                 borderRadius: (1/100) * container.width,
