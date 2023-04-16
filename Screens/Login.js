@@ -31,7 +31,7 @@ const Login = ({navigation, route}) => {
 
                 {/* SECTION UNTUK PERKATAAN SIGN IN - TITLE */}
                 <View style={{ marginTop: (7/100) * container.height}}>
-                    <Text style={{ fontWeight: 'bold', fontSize: fonts.xlarge}}>Sign on</Text>
+                    <Text style={{ fontWeight: 'bold', fontSize: fonts.xlarge}}>Sign In</Text>
                 </View>
 
                 {/* SECTION UNTUK FORM SIGN IN - USERNAME & PASSWORD */}
@@ -87,7 +87,7 @@ const Login = ({navigation, route}) => {
                 {/* SECTION UNTUK HYPERLINK FORGOT PASSWORD */}
                 <View style={{ marginTop: (1/100) * container.height}}>
                     <TouchableOpacity>
-                        <Text style={{ fontSize: fonts.regular, color: color.primary}}>baby?</Text>
+                        <Text style={{ fontSize: fonts.regular, color: color.primary}}>Forgot Password?</Text>
                     </TouchableOpacity>
                 </View>
 
