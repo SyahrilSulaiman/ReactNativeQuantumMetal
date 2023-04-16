@@ -87,7 +87,7 @@ const Login = ({navigation, route}) => {
                 {/* SECTION UNTUK HYPERLINK FORGOT PASSWORD */}
                 <View style={{ marginTop: (1/100) * container.height}}>
                     <TouchableOpacity>
-                        <Text style={{ fontSize: fonts.regular, color: color.primary}}>Forget password?</Text>
+                        <Text style={{ fontSize: fonts.regular, color: color.primary}}>baby?</Text>
                     </TouchableOpacity>
                 </View>
 
