@@ -8,7 +8,7 @@ import Copyright from '../Components/Copyright';
 // create a component
 const Login = ({navigation, route}) => {
     return (
-        <SafeAreaView style={{ flex: 1}}>
+        <SafeAreaView style={{ flex: 1, backgroundColor: color.clouds}}>
             <StatusBar barStyle={"dark-content"} />
             <ScrollView style={{ paddingHorizontal: (5/100) * container.width}} keyboardDismissMode="on-drag">
 
